@@ -8,8 +8,8 @@ class SpecificPriceTest extends SapphireTest{
     
     function setUp(){
         parent::setUp();
-        Object::add_extension("Product", "SpecificPricingExtension");
-        Object::add_extension("ProductVariation", "SpecificPricingExtension");
+        SS_Object::add_extension("Product", "SpecificPricingExtension");
+        SS_Object::add_extension("ProductVariation", "SpecificPricingExtension");
     }
 
     function testProductPrice() {
